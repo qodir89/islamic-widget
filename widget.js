@@ -77,7 +77,7 @@
                 <div class="hidden md:block flex-1">
                     <div class="text-base font-medium opacity-90 mb-2">TANGGAL HARI INI</div>
                     <div class="text-xl font-bold mb-2" id="gregorianDate">-</div>
-                    <div class="text-lg font-small mb-1" id="hijriDate">-</div>
+                    <div class="text-md font-small mb-1" id="hijriDate">-</div>
                     <div class="text-base opacity-80" id="dayName">-</div>
                 </div>
 
@@ -176,4 +176,5 @@
   setInterval(loadPrayer, 60*1000);
   setInterval(loadWeather, 10*60*1000);
 })();
+
 
