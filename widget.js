@@ -7,10 +7,10 @@
             <div class="flex items-center justify-between text-white">
                 <!-- Jadwal Shalat -->
                 <div class="flex-1" >
-                    <div class="text-base font-medium opacity-90 mb-2">SHALAT BERIKUTNYA</div>
-                    <div class="text-3xl font-bold mb-2" id="nextPrayer">Ashar</div>
-                    <div class="text-xl font-medium mb-1" id="nextPrayerTime">15:24</div>
-                    <div class="text-base opacity-80" id="timeRemaining">dalam 2 jam 15 menit</div>
+                    <div class="text-base font-medium opacity-90 mb-2">WAKTU SHALAT</div>
+                    <div class="text-3xl font-bold mb-2" id="nextPrayer">Loading</div>
+                    <div class="text-xl font-medium mb-1" id="nextPrayerTime">-</div>
+                    <div class="text-base opacity-80" id="timeRemaining">-</div>
                 </div>
 
                 <!-- Mosque Icon - Visible only on mobile -->
@@ -76,9 +76,9 @@
                 <!-- Tanggal - Hidden on mobile -->
                 <div class="hidden md:block flex-1">
                     <div class="text-base font-medium opacity-90 mb-2">TANGGAL HARI INI</div>
-                    <div class="text-xl font-bold mb-2" id="gregorianDate">28 Agustus 2025</div>
-                    <div class="text-lg font-small mb-1" id="hijriDate">3 Safar 1447 H</div>
-                    <div class="text-base opacity-80" id="dayName">Kamis</div>
+                    <div class="text-xl font-bold mb-2" id="gregorianDate">-</div>
+                    <div class="text-lg font-small mb-1" id="hijriDate">-</div>
+                    <div class="text-base opacity-80" id="dayName">-</div>
                 </div>
 
                 <!-- Divider - Hidden on mobile -->
@@ -87,9 +87,9 @@
                 <!-- Suhu - Hidden on mobile -->
                 <div class="hidden md:block flex-1">
                     <div class="text-base font-medium opacity-90 mb-2">SUHU HARI INI</div>
-                    <div class="text-3xl font-bold mb-2" id="temperature">°C</div>
-                    <div class="text-lg font-medium mb-1" id="city">Bekasi</div>
-                    <div class="text-base opacity-80" id="provinsi">Jawa Barat</div>
+                    <div class="text-3xl font-bold mb-2" id="temperature">-</div>
+                    <div class="text-lg font-medium mb-1" id="city">-</div>
+                    <div class="text-base opacity-80" id="provinsi">-</div>
                 </div>
 
                 <!-- Divider - Hidden on mobile -->
@@ -98,9 +98,9 @@
                 <!-- Kondisi Cuaca - Hidden on mobile -->
                 <div class="hidden md:block flex-1">
                     <div class="text-base font-medium opacity-90 mb-2">KONDISI CUACA</div>
-                    <div class="text-4xl mb-3" id="weatherIcon">☀️</div>
-                    <div class="text-lg font-medium mb-1" id="weatherDesc">Cerah Berawan</div>
-                    <div class="text-base opacity-80"id="kelembapan">Siang Hari</div>
+                    <div class="text-4xl mb-3" id="weatherIcon">-</div>
+                    <div class="text-lg font-medium mb-1" id="weatherDesc">-</div>
+                    <div class="text-base opacity-80"id="kelembapan">-</div>
                 </div>
             </div>
         </div>
@@ -176,3 +176,4 @@
   setInterval(loadPrayer, 60*1000);
   setInterval(loadWeather, 10*60*1000);
 })();
+
