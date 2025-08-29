@@ -9,7 +9,7 @@
                 <div class="flex-1" >
                     <div class="text-base font-medium opacity-90 mb-2">WAKTU SHALAT</div>
                     <div class="text-3xl font-bold mb-2" id="nextPrayer">Loading</div>
-                    <div class="text-xl font-medium mb-1" id="nextPrayerTime">-</div>
+                    <div class="text-xm font-small mb-1" id="nextPrayerTime">-</div>
                     <div class="text-base opacity-80" id="timeRemaining">-</div>
                 </div>
 
@@ -176,5 +176,6 @@
   setInterval(loadPrayer, 60*1000);
   setInterval(loadWeather, 10*60*1000);
 })();
+
 
 
